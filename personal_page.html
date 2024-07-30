@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isha Talegaonkar - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77c4d3 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            background: #fff;
+            border-radius: 8px;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Isha Talegaonkar</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Technical Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi! I’m Isha Talegaonkar, a Software Engineer with experience in building end-to-end systems, data ingestion, and transformation, and optimizing API performance. I have a strong background in Python, Java, Node.js, and various other technologies. Currently, I am working at Walmart Global Tech as a Software Engineer III.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="content">
+                <h3>Walmart Global Tech</h3>
+                <p><strong>Software Engineer III - People.API</strong><br>
+                June ’23 – Present | Dallas, Texas</p>
+                <ul>
+                    <li>Building e2e systems for database event listeners using Kafka to facilitate real-time data streaming.</li>
+                    <li>Managing data ingestion and transformation for 2.2 million associates, and serving GraphQL requests.</li>
+                    <li>Implementing GraphQL Federation principles, optimizing API performance, and designing robust error-handling mechanisms.</li>
+                    <li>Enhanced system resilience by implementing rate limiting, retries, metrics, and alerting using Splunk.</li>
+                    <li>Developed an end-to-end flow for GraphQL schema governance.</li>
+                </ul>
+
+                <h3>Scientific Computing and Imaging Institute, University of Utah</h3>
+                <p><strong>Research Assistant</strong><br>
+                August ’22 – May ’23 | Salt Lake City, Utah</p>
+                <ul>
+                    <li>Developed and implemented Moviz tool for visualizing computation graphs in scientific model codebases.</li>
+                    <li>Utilized scalable techniques to automate graph construction and manage visualization complexity.</li>
+                </ul>
+
+                <h3>Walmart Global Tech</h3>
+                <p><strong>Software Engineer III Intern</strong><br>
+                May ’22 – August ’22 | Bentonville, Arkansas</p>
+                <ul>
+                    <li>Designed and developed efficient algorithms to validate and visualize GraphQL schemas.</li>
+                    <li>Reduced the response rate from 564.66 ms to 63.39 ms by detecting complex schemas prior to build.</li>
+                    <li>Developed two GraphQL APIs that fetched data from a SOAP endpoint and stored results from the cache.</li>
+                </ul>
+
+                <h3>University of Utah</h3>
+                <p><strong>Teaching Assistant - Python Programming</strong><br>
+                August ’21 – May ’22 | Salt Lake City, Utah</p>
+                <ul>
+                    <li>Led three laboratories, held office hours, graded assignments, midterms, and finals.</li>
+                </ul>
+
+                <h3>Mastercard</h3>
+                <p><strong>Software Development Engineer I</strong><br>
+                July ’19 – July ’21 | Pune, India</p>
+                <ul>
+                    <li>Automated Product Proposal Tool for potential Mastercard customers, involving brainstorming, data analysis utilizing Python, Numpy, Pandas, and Django.</li>
+                    <li>Developed a Defect Dashboard web application for real-time statistics on open defects from ALM.</li>
+                    <li>Created an automation tool for database deployment, enhancing deployment processes and efficiency.</li>
+                </ul>
+
+                <h3>Citibank</h3>
+                <p><strong>Summer Analyst</strong><br>
+                May ’18 – June ’18 | Pune, India</p>
+                <ul>
+                    <li>Developed SharePoint 2013 Automation for automatic assignment and grading of new hire courses.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <p><strong>Languages:</strong> Python, Java, C, C++, HTML/CSS, Typescript, SQL, Javascript, Typescript, Shell, Node.js, D3.js</p>
+            <p><strong>Tools:</strong> Figma, Mural, VS Code, Eclipse, Tableau, Anaconda, Microsoft Office, Splunk, Grafana</p>
+            <p><strong>Technologies:</strong> Linux, Git, SpringBoot, Angular, React, Agile, Kafka, ETL, CI/CD, Elasticsearch, Docker, Kubernetes</p>
+            <p><strong>Libraries:</strong> Pandas, Numpy, scikit-learn, Keras, Tensorflow, Maven, Hibernate, REST, GraphQL, Flask, Django, Spring Boot, JUnit, Mockito, Memcache</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>Masters, Computer Science (3.9 GPA)</strong><br>
+            University of Utah | August ’21 - May ’23 | Salt Lake City, Utah</p>
+            <p>Relevant Courses: Visualization for Data Science, Graduate Algorithms, Operating Systems</p>
+            <p><strong>Bachelor’s in Engineering, Information Technology (3.8 GPA)</strong><br>
+            University of Pune | July ’15 - June ’19 | Pune, India</p>
+            <p>Relevant Courses: Data Structures, Algorithms, Project Management, Software Design</p>
+        </section>
+
+        <section id="projects">
+            <h2>Selected Projects</h2>
+            <h3>Visualization for Data Science</h3>
+            <p><strong>Tools:</strong> D3.js, Python | August ’22 - December ’22</p>
+            <p>Developed visualizations using D3.js for different datasets. Prepared data using Python, Numpy, and Pandas, and developed dashboards for understanding the patterns in data.</p>
+            <p><a href="https://github.com/isha-talegaonkar/data-visualization-fall-22">Project Link</a></p>
+
+            <h3>Twitter Data Analysis</h3>
+            <p><strong>Tools:</strong> Machine Learning, Python, Pandas, Numpy | January ’22 – May ’22</p>
+            <p>Analyzed Twitter data collected during the 2017 Atlantic Hurricane season to develop a Linear Regression model that identified features contributing most to tweet engagement. This research was published in ISCRAM 2023.</p>
+            <p><a href="https://idl.iscram.org/files/nurollahian/2023/2540_Nurollahian_etal2023.pdf">Research Paper</a></p>
+
+            <h3>Real-Time Facial Expression Recognition System</h3>
+            <p><strong>Tools:</strong> Python, Image Processing, Deep Learning | June ’18 - June ’19</p>
+            <p>Developed a real-time Facial Expression Recognition (FER) system using Convolutional Neural Networks (CNN). Implemented preprocessing techniques and CNN architecture to classify human expressions into seven categories. This research was published in Elsevier SSRN.</p>
+            <p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3421486">Research Paper</a></p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:talegaonkar.isha@gmail.com">talegaonkar.isha@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/isha-talegaonkar">linkedin.com/in/isha-talegaonkar</a></p>
+            <p>GitHub: <a href="https://www.github.com/isha-talegaonkar">github.com/isha-talegaonkar</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 Isha Talegaonkar</p>
+    </footer>
+</body>
+</html>
